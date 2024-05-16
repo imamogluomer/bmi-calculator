@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         String weightStr = editTextWeight.getText().toString();
 
         if (heightStr.isEmpty() || weightStr.isEmpty()) {
-            textViewResult.setText("Lütfen boş alan bırakmayın.");
+            textViewResult.setText("Lütfen boş alan bırakmayınız.");
             return;
         }
 
